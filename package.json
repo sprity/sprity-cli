@@ -1,0 +1,54 @@
+{
+  "name": "sprity-cli",
+  "version": "1.0.0",
+  "description": "Command line interface for sprity",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sprity/sprity-cli.git"
+  },
+  "homepage": "https://github.com/sprity/sprity-cli",
+  "bugs": {
+    "url": "https://github.com/sprity/sprity-cli/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/sprity/sprity-cli/blob/master/LICENSE-MIT"
+    }
+  ],
+  "author": {
+    "name": "Alexander Slansky",
+    "email": "alexander@slansky.net",
+    "url": "http://slansky.net"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "bin": {
+    "sprity": "./index.js"
+  },
+  "scripts": {
+    "hint": "eslint index.js",
+    "style": "jscs index.js"
+  },
+  "main": "./index.js",
+  "keywords": [
+    "sprites",
+    "sprite",
+    "css-sprite",
+    "sprity"
+  ],
+  "dependencies": {
+    "bluebird": "^2.9.24",
+    "colors": "^1.0.3",
+    "lodash": "^3.7.0",
+    "nomnom": "^1.8.1",
+    "npm": "^2.8.4",
+    "sprity": "^1.0.0",
+    "vinyl-fs": "^1.0.0"
+  },
+  "devDependencies": {
+    "chai": "^2.2.0",
+    "mocha": "^2.2.4"
+  }
+}
