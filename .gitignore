@@ -5,3 +5,5 @@ coverage
 test/dist
 test/out
 npm-debug.log
+test/
+out/
