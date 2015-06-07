@@ -68,7 +68,7 @@ module.exports = function (parser, cmd) {
     })
     .option('style', {
       abbr: 's',
-      help: 'file to write css to, if omitted no css is written'
+      help: 'file to write css to, if omitted no css is written (relative to out path)'
     })
     .option('background', {
       default: '#FFFFFF',

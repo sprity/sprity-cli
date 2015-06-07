@@ -40,7 +40,7 @@ Options:
    -n, --name             name of sprite file without file extension   [sprite]
    -p, --processor        style processing module  [css]
    -t, --template         output template file, overrides processor option
-   -s, --style            file to write css to, if omitted no css is written
+   -s, --style            file to write css to, if omitted no css is written (relative to out path)
    --background           background color of the sprite in hex  [#FFFFFF]
    --cachebuster          appends a "cache buster" to the background image in the form "?<...>"  [false]
    --margin               margin in px between tiles  [4]
