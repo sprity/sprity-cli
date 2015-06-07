@@ -14,6 +14,9 @@ var command = function (opts) {
   sprity.create(opts, function (err) {
     if (err) {
       log.error(err.toString());
+      if (err.reason) {
+        log.debug(err.reason);
+      }
     }
     else {
       log.success('Sprite created in ' + opts.out);
